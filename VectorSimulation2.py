@@ -345,7 +345,7 @@ while running:
                          (cursor_pos, input_rect.y + input_rect.h - 5), 2)
 
     # Display time scale
-    time_text = font.render(f"Time scale: {time_scale:.6f}x real-time", True, WHITE)
+    time_text = font.render(f"Time scale: {time_scale:.1f}x real-time", True, WHITE)
     screen.blit(time_text, (20, height - 70))
 
     # Calculate and display Earth time

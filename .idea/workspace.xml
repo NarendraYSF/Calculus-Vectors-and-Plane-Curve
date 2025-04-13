@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86491ca6-c704-4dd8-a1a9-20936da832f1" name="Changes" comment="Feature: Added a VectorSimulation.py that perfectly simulates realtime earth rotation">
+    <list default="true" id="86491ca6-c704-4dd8-a1a9-20936da832f1" name="Changes" comment="Update: Revised texture and added a custom keyboard input function into omega rad/s">
+      <change afterPath="$PROJECT_DIR$/EarthOrbitalDecay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VectorSimulation2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConstantVectorSimulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConstantVectorSimulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VectorSimulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/VectorSimulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ConstantVectorSimulation.executor": "Run",
+    "Python.EarthOrbitalDecay.executor": "Run",
     "Python.VectorSimulation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -109,7 +113,7 @@
       <workItem from="1744464577879" duration="379000" />
       <workItem from="1744465300649" duration="439000" />
       <workItem from="1744465784423" duration="1333000" />
-      <workItem from="1744513395079" duration="8110000" />
+      <workItem from="1744513395079" duration="19279000" />
     </task>
     <task id="LOCAL-00001" summary="Fix: Clean up output by rounding small numerical errors in velocity and acceleration calculations">
       <option name="closed" value="true" />
@@ -127,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744516785862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update: Revised texture and added a custom keyboard input function into omega rad/s">
+      <option name="closed" value="true" />
+      <created>1744523348545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744523348545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update: Revised texture and added a custom keyboard input function into omega rad/s">
+      <option name="closed" value="true" />
+      <created>1744523362990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744523362990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +156,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix: Clean up output by rounding small numerical errors in velocity and acceleration calculations" />
     <MESSAGE value="Feature: Added a VectorSimulation.py that perfectly simulates realtime earth rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Added a VectorSimulation.py that perfectly simulates realtime earth rotation" />
+    <MESSAGE value="Update: Revised texture and added a custom keyboard input function into omega rad/s" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Revised texture and added a custom keyboard input function into omega rad/s" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Calculus_Vectors_and_Plane_Curve$VectorSimulation.coverage" NAME="VectorSimulation Coverage Results" MODIFIED="1744522803918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Calculus_Vectors_and_Plane_Curve$ConstantVectorSimulation.coverage" NAME="ConstantVectorSimulation Coverage Results" MODIFIED="1744515347602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Calculus_Vectors_and_Plane_Curve$VectorSimulation.coverage" NAME="VectorSimulation Coverage Results" MODIFIED="1744550114122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Calculus_Vectors_and_Plane_Curve$EarthOrbitalDecay.coverage" NAME="EarthOrbitalDecay Coverage Results" MODIFIED="1744527048505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Calculus_Vectors_and_Plane_Curve$ConstantVectorSimulation.coverage" NAME="ConstantVectorSimulation Coverage Results" MODIFIED="1744528376303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
